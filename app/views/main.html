@@ -1,0 +1,34 @@
+<div class="jumbotron">
+    <h1>Time for Lunch!</h1>
+</div>
+
+<div class="row marketing">
+    <div ng-controller="UserCtrl">
+        <button id="generate-groups" class="button btn btn-default"
+                ng-click="generateGroups()">
+            Generate Groups
+        </button>
+        <div id="users">
+            <div class="user">
+                <div class="col-sm-3" ng-repeat="user in users">
+                    <button class="user-button button btn btn-default" ng-class="{'present': user.present}"
+                            ng-click="toggleUser(user.name)">
+                        {{user.name}}
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="groups" class="col-sm-12">
+            <div class="group" ng-repeat="group in groups">
+                <ul>
+                    <li ng-repeat="user in group.users">{{user.name}}</li>
+                </ul>
+
+                <div class="allergies">
+                    {{group.allergies}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
