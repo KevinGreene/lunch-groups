@@ -125,7 +125,7 @@ body {
     ul, li {
       display: inline;
       list-style: none;
-      padding-left:0px;
+      padding-left: 0px;
     }
     li + li:before {
       content: ", ";
@@ -133,8 +133,19 @@ body {
   }
 }
 
-#generate-region{
+#generate-region {
   h2 {
     padding-top: 30px;
   }
+  #generate-groups {
+    padding: 15px;
+    font-size: 130%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+h2 {
+  text-align: center;
 }
