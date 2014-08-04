@@ -25,6 +25,7 @@ To push to gh-pages, type
 
 ```bash
 grunt build
-cp -R app/users dist/
+git add dist
+git commit -am "Updated dist" && git push
 git subtree push --prefix dist origin gh-pages
 ```
