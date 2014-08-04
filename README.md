@@ -12,7 +12,7 @@ This app is to test out smaller lunches. Initially developed for two, this will 
 Conceived by Gary Turovsky, Implemented By Kevin Greene.
 
 Developing
-==========
+----------
 
 In order to get started, simple go to the root directory, and type:
 
