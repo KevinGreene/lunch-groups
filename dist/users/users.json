@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Allie",
+    "present": true,
+    "allergies": []
+  },
+  {
+    "name": "Andrea",
+    "present": true,
+    "allergies": ["Gluten", "Dairy"]
+  },
+  {
+    "name": "Bob",
+    "present": true,
+    "allergies": []
+  },
+  {
+    "name": "Cedric",
+    "present": true,
+    "allergies": ["Meat"]
+  },
+  {
+    "name": "Gary",
+    "present": true,
+    "allergies": []
+  },
+  {
+    "name": "Jonathan",
+    "present": true,
+    "allergies": []
+  },
+  {
+    "name": "Kevin",
+    "present": true,
+    "allergies": ["Seafood"]
+  },
+  {
+    "name": "Nemik",
+    "present": true,
+    "allergies": []
+  }
+]
