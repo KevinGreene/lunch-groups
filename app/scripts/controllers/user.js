@@ -13,6 +13,8 @@ angular.module('pairLunchingApp')
       $scope.users = data;
     });
 
+    $scope.groupSize = 2;
+
     var createGroupFromUsers = function (users) {
       var group = {
         users: [],
@@ -43,6 +45,15 @@ angular.module('pairLunchingApp')
         $scope.users[i].present = !$scope.users[i].present;
       }
     };
+
+    $scope.decrementGroupSize = function () {
+      $scope.groupSize = $scope.groupSize - 1;
+    };
+
+    $scope.incrementGroupSize = function () {
+      $scope.groupSize = $scope.groupSize + 1;
+    };
+
 
     $scope.generateGroups = function (options) {
       if(typeof options === 'undefined'){

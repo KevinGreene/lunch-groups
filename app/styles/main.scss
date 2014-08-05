@@ -148,6 +148,26 @@ body {
   h2 {
     padding-top: 30px;
   }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+  }
+
+  #group-size {
+    width: 25px;
+  }
+
+  #group-size-selection-region {
+    text-align: center;
+    padding-bottom: 10px;
+    input {
+      text-align: center;
+    }
+  }
+
   #generate-groups {
     padding: 15px;
     font-size: 130%;
@@ -161,6 +181,6 @@ h2 {
   text-align: center;
 }
 
-.dark-row{
+.dark-row {
   background: lightgray;
 }

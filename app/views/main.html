@@ -22,7 +22,12 @@
 
         <div id="generate-region">
             <h2>Then, press the big blue button</h2>
-            <input type="number" id="groupSize" ng-model="groupSize">
+
+            <div id="group-size-selection-region">
+                <button id="minus-group-size" class="button btn btn-primary" ng-click="decrementGroupSize()">-</button>
+                <input type="number" id="group-size" ng-model="groupSize" value="2">
+                <button id="plus-group-size" class="button btn btn-primary" ng-click="incrementGroupSize()">+</button>
+            </div>
             <button id="generate-groups" class="button btn btn-primary"
                     ng-click="generateGroups({groupSize: groupSize})">
                 Generate Groups
