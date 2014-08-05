@@ -44,16 +44,22 @@ angular.module('pairLunchingApp')
       }
     };
 
-    $scope.generateGroups = function () {
+    $scope.generateGroups = function (options) {
+      if(typeof options === 'undefined'){
+        options = {};
+      }
+      var groupSize = options.groupSize ? options.groupSize : 2;
       var groups = [];
       var presentUsers = _.filter($scope.users, function (user) {
         return user.present;
       });
 
-      while (presentUsers.length > 3) {
-        var user1 = pluckRandomElement(presentUsers);
-        var user2 = pluckRandomElement(presentUsers);
-        var group = createGroupFromUsers([user1, user2]);
+      while (presentUsers.length > groupSize * 2 - 1) {
+        var users = [];
+        for(var i = 0; i < groupSize; i ++){
+          users.push(pluckRandomElement(presentUsers));
+        }
+        var group = createGroupFromUsers(users);
         groups.push(group);
       }
 
