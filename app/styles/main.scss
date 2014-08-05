@@ -52,7 +52,7 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-
+  padding: 0.5em 0.6em;
   .btn {
     font-size: 21px;
     padding: 14px 24px;
@@ -122,6 +122,7 @@ body {
     padding-bottom: 30px;
   }
   .group {
+    padding-top: 15px;
     ul, li {
       display: inline;
       list-style: none;
@@ -129,6 +130,16 @@ body {
     }
     li + li:before {
       content: ", ";
+    }
+    .restaurants {
+      ul, li {
+        display: list-item;
+        padding-left: 0px;
+      }
+      li + li:before {
+        content: "";
+      }
+
     }
   }
 }
@@ -148,4 +159,8 @@ body {
 
 h2 {
   text-align: center;
+}
+
+.dark-row{
+  background: lightgray;
 }

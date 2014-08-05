@@ -2,41 +2,167 @@
   {
     "name": "Allie",
     "present": true,
-    "allergies": []
+    "restrictions": [],
+    "restaurants": [
+      "Jimmy John's",
+      "Haymarket",
+      "Little Goat",
+      "Pizzeria Del Mercato",
+      "Aberdeen Tap",
+      "Gaudi Cafe",
+      "Salerno's",
+      "Jupiter",
+      "La Sirena",
+      "Jaipur",
+      "De Cero",
+      "Coalfire",
+      "Sushi Dokku"
+    ]
   },
   {
     "name": "Andrea",
     "present": true,
-    "allergies": ["Gluten", "Dairy"]
+    "restrictions": [
+      "Dairy"
+    ],
+    "restaurants": [
+      "Jimmy John's",
+      "Haymarket",
+      "Little Goat",
+      "Pizzeria Del Mercato",
+      "Aberdeen Tap",
+      "Gaudi Cafe",
+      "Salerno's",
+      "Jupiter",
+      "La Sirena",
+      "Jaipur",
+      "De Cero",
+      "Coalfire",
+      "Sushi Dokku"
+    ]
   },
   {
     "name": "Bob",
     "present": true,
-    "allergies": []
+    "restrictions": [],
+    "restaurants": [
+      "Jimmy John's",
+      "Haymarket",
+      "Little Goat",
+      "Pizzeria Del Mercato",
+      "Aberdeen Tap",
+      "Gaudi Cafe",
+      "Salerno's",
+      "Jupiter",
+      "La Sirena",
+      "Jaipur",
+      "De Cero",
+      "Coalfire",
+      "Sushi Dokku"
+    ]
   },
   {
     "name": "Cedric",
     "present": true,
-    "allergies": ["Meat"]
+    "restrictions": [
+      "Meat"
+    ],
+    "restaurants": [
+      "Jimmy John's",
+      "Haymarket",
+      "Little Goat",
+      "Pizzeria Del Mercato",
+      "Aberdeen Tap",
+      "Gaudi Cafe",
+      "Salerno's",
+      "Jupiter",
+      "La Sirena",
+      "Jaipur",
+      "De Cero",
+      "Coalfire",
+      "Sushi Dokku"
+    ]
   },
   {
     "name": "Gary",
     "present": true,
-    "allergies": []
+    "restrictions": [],
+    "restaurants": [
+      "Jimmy John's",
+      "Haymarket",
+      "Little Goat",
+      "Pizzeria Del Mercato",
+      "Aberdeen Tap",
+      "Gaudi Cafe",
+      "Salerno's",
+      "Jupiter",
+      "La Sirena",
+      "Jaipur",
+      "De Cero",
+      "Coalfire",
+      "Sushi Dokku"
+    ]
   },
   {
     "name": "Jonathan",
     "present": true,
-    "allergies": []
+    "restrictions": [],
+    "restaurants": [
+      "Jimmy John's",
+      "Haymarket",
+      "Little Goat",
+      "Pizzeria Del Mercato",
+      "Aberdeen Tap",
+      "Gaudi Cafe",
+      "Salerno's",
+      "Jupiter",
+      "La Sirena",
+      "Jaipur",
+      "De Cero",
+      "Coalfire",
+      "Sushi Dokku"
+    ]
   },
   {
     "name": "Kevin",
     "present": true,
-    "allergies": ["Seafood"]
+    "restrictions": [
+      "Seafood"
+    ],
+    "restaurants": [
+      "Jimmy John's",
+      "Haymarket",
+      "Little Goat",
+      "Pizzeria Del Mercato",
+      "Aberdeen Tap",
+      "Gaudi Cafe",
+      "Salerno's",
+      "Jupiter",
+      "La Sirena",
+      "Jaipur",
+      "De Cero",
+      "Coalfire",
+      "Sushi Dokku"
+    ]
   },
   {
     "name": "Nemik",
     "present": true,
-    "allergies": []
+    "restrictions": [],
+    "restaurants": [
+      "Jimmy John's",
+      "Haymarket",
+      "Little Goat",
+      "Pizzeria Del Mercato",
+      "Aberdeen Tap",
+      "Gaudi Cafe",
+      "Salerno's",
+      "Jupiter",
+      "La Sirena",
+      "Jaipur",
+      "De Cero",
+      "Coalfire",
+      "Sushi Dokku"
+    ]
   }
 ]

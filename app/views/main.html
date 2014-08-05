@@ -42,25 +42,31 @@
                     </div>
                 </div>
                 <div class="group" ng-repeat="group in groups">
-                    <div class="col-md-4">
-                        <ul>
-                            <li ng-repeat="user in group.users">{{user.name}}</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="allergies">
+                    <div ng-class-even="'dark-row'" ng-class-odd="'light-row'">
+                        <div class="group-members">
+                            <div class="col-md-4">
+                                <ul>
+                                    <li ng-repeat="user in group.users">{{user.name}}</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="restrictions">
 
-                            <ul>
-                                <li ng-repeat="restriction in group.allergies">{{restriction}}</li>
-                            </ul>
+                            <div class="col-md-4">
+
+                                <ul>
+                                    <li ng-repeat="restriction in group.restrictions">{{restriction}}</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="restaurants">
+                            <div class="col-md-4">
+                                <ul>
+                                    <li ng-repeat="restaurant in group.restaurants">{{restaurant}}</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="restaurant">
-                            Undecided
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>

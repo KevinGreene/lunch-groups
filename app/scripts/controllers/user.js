@@ -16,13 +16,17 @@ angular.module('pairLunchingApp')
     var createGroupFromUsers = function (users) {
       var group = {
         users: [],
-        allergies: []
+        restaurants: [],
+        restrictions: []
       };
 
       _.each(users, function (user) {
         group.users.push(user);
-        group.allergies = _.union(group.allergies, user.allergies);
+        group.restrictions = _.union(group.restrictions, user.restrictions);
+        group.restaurants = _.union(group.restaurants, user.restaurants);
       });
+
+      group.restaurants = _.sample(group.restaurants, 3);
       return group;
     };
 
